@@ -11,6 +11,8 @@ public class PTra02_05 {
 		int age = 58;
 		String name = "山田";
 
+		String text = "山田さんは"+58+"歳です";
+		System.out.println(text);
 		// ★ 変数age, nameを連結して「山田さんは、58歳です」と出力してください
 	}
 }

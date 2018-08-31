@@ -11,6 +11,9 @@ public class PTra02_06 {
 		int x = 10;
 		int y = 50;
 
+		int t = x;
+		x = y;
+		y = t;
 		System.out.println("x:" + x);
 		System.out.println("y:" + y);
 
